@@ -8,7 +8,7 @@ public class SteamEntry{
     
     public String type;
     public String name;
-    @SerializedName("appid")
+    @SerializedName("steam_appid")
     public int appId;
     @SerializedName("required_age")
     public int requiredAge;
